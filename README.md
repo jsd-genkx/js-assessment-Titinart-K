@@ -131,11 +131,10 @@
 
 ### Thinking Process
 
-1. // step 1
-2. // step 2
-3. // ...
-4. // step n
-
+1.เกมส์จะเช็คเงื่อนไขแพ้คือเดินตกหลุมกับเดินออกกระดาน จะชนะคือเดินไปเจอหมวก โดยรับค่าจากคีบอร์ด
+2.รับinput ค่าการเดินจากคีบอร์ด = r,l,u,d
+2.เขียนเงื่อนไขการเดิน r (col++),l(col--),u(row--),d(row++) ถ้าไม่ใช่ Invalid input โดยใช้ if-else
+3.สร้างfunction การเดินของผู้เล่น/เช็คว่าเดินตกหลุม?/เจอหมวก?/ออกนอกกระดาน? 4.
 _Notes:_<br>
 _- You can attach flowcharts, diagrams, and images as needed._<br>
 _- The purpose of this section is not to explain your code but rather to convey your thoughts and ideas._

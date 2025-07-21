@@ -23,7 +23,7 @@ class Field {
 
     // Print field //
     print() {
-           clear();
+        clear();
     for (let row of this.field) {
       console.log(row.join(" "));
     }
