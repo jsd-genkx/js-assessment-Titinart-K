@@ -23,7 +23,11 @@ class Field {
 
 	// Print field //
 	print() {
-		
+		clear();
+		for (let row of this.field) {
+			console.log(row.join(" "));
+		}
+
 		while(true){
 		const command = prompt("input :");
 		console.log(`your input ${command}`);
@@ -34,9 +38,9 @@ class Field {
 			console.log(this.positionCol);
 			this.positionCol++;
 			console.log(this.positionCol);
-		
-		}
 			this.field[this.positionRow][this.positionCol] = pathCharacter;
+		}
+			
 		else if(command === "l") {
 			console.log(this.positionRow);
 			console.log(this.positionCol);
